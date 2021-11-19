@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# ATTEMPT AT DATA FILTERING
+--------------------------------------------------------------*/
+.col-lg-3 {
+    padding: 10px;
+  }
+  
+  .datalist {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  
+  .datalist ul li {
+    list-style: none;
+    background: #eee;
+    padding: 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .datalist ul li.active {
+    background: #0419f4;
+    color: #fff;
+  }
+  
+  .databases {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  .databases .icon-box {
+    position: relative; 
+    width: 100px; 
+    height: 200px;
+    margin: 5px;
+  }
+  
+  .databases .icon-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
